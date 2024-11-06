@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Help - ChunksPay</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            border:border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+        }
+        /* Header */
+        header {
+           background-color: #3e3676;
+            color: white;
+            padding: 15px 20px;
+            display: flex;
+            justify-content: left;
+            align-items: center;
+           position: fixed;
+            width: 100%;
+            height: 30px;
+            background-size: cover;
+           
+        }
+        
+        
+        header h1 {
+            font-size: 30px;
+             width: 200px;
+             margin-left: 5%;
+        }
+        header nav{
+            width: 1400px;
+            text-align: right; 
+            margin-left: 5%;
+        }
+        header nav a {
+            color: white;
+            
+            text-decoration: none;
+            font-size: 25px;
+            padding: 1.5%;
+        }
+        header nav a:hover {
+            text-decoration: underline;
+            /*background-color: blueviolet/*#ffb100*/;
+        }
+        /*section 1*/
+        .div1{
+            padding-left: 200px;
+            padding-top: 150px;
+            padding-right: 200px;
+            color: #3e3676;
+            font-size: 23px;
+        }
+        #submit{
+            padding: 10px;
+            font-size: 20px;
+            border-radius: 5px;
+        }
+        #submit:hover{
+            background-color: #3e3676;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+        /*section 2*/
+.feature5 {
+    display: flex;
+    justify-content: space-evenly;
+    /*padding: 40px 20px;*/
+    background-color: white;
+    height: 200px;
+    width: 100%;
+    align-content: center;
+    padding-top: 60px;
+}
+.feature51 {
+    text-align: justify;
+    max-width: 300px;
+    height: 200px;
+    align-content: top;
+}
+.feature51 img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+.feature51 h1{
+    color: #3e3676;
+    font-size: 30px;
+}
+.feature51 h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.text{
+    text-align: left;
+    color: #3e3676;
+    font-size: 18px;
+}
+.text a{
+    text-decoration: none;
+    color:#3e3676;
+}
+.text a:hover {
+   text-decoration: underline;
+   color:#d75df5 ;
+}
+/* Footer */
+footer {
+    background-color: #3e3676/* #003087*/;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+footer p {
+    font-size: 1.2em;
+}
+footer a {
+    color: rgb(230, 230, 58) /*#ffc439*/;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <div>
+        <header>
+          <!--<img src="Chunksbg.png" alt="Feature1" height="30px">-->
+          <h1>ChunksPay</h1>
+          <nav>
+              <a href="index.html">Home</a>
+              <a href="payment.html">Services</a>
+               <a href="login.html">Login</a>
+              <a href="signup.html">Sign Up</a>
+              <a href="help.html">Help</a>
+              <a href="contactus.html">Contact Us</a>
+          </nav>
+      </header>
+      </div>
+      <!--section 1-->
+      <div class="div1">
+      <br>
+        <h1>We’d Love to Hear from You!</h1>
+        <br><br>
+        <p>Whether you have questions, feedback, or need assistance, our team is here to help. Please fill out the form below, and we’ll get back to you as soon as possible.</p>
+        <br>
+        <form action="/contact" method="POST"> <!-- Action URL to handle contact form submission -->
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required>
+             <br><br>
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+              <br><br>
+            <label for="phone">Phone Number (Optional):</label>
+            <input type="tel" id="phone" name="phone">
+              <br><br>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+             <br><br>
+            <button type="submit" id="submit">Submit</button>
+        </form>
+    </div>
+        <!--Section 2-->
+    <section class="feature5">
+        <div class="feature51">
+            <h1>ChunksPay</h1>
+            <!--<img src="Chunks.png" alt="Feature 2">-->
+        </div>
+        <div class="feature51">
+            <h3 class="text"><a href="form.html" id="a">OUR SERVICE</a></h3>
+            <ul>
+            <li class="text" type="none"><a href="form.html" id="a"> EV Pay</a></button></li>
+            <li class="text" type="none"><a href="form.html" id="a"> Chunks Pay</a></button></li>
+            <li class="text" type="none"><a href="form.html" id="a"> Payment</a></button></li>
+        </ul>
+
+        </div>
+        <div class="feature51">
+            <h3 class="text"><a href="form.html" id="a"> ACCEPT PAYMENTS</a></h3>
+            <ul>
+            <li class="text" type="none"><a href="form.html" id="a"> Recharge</a></button></li>
+            <li class="text" type="none"><a href="form.html" id="a"> Bill Payment</a></button></li>
+            <li class="text" type="none"><a href="form.html" id="a"> EV Pay</a></button></li>
+        </ul>
+
+        </div>
+        <div class="feature51">
+            <h3 class="text"><a href="form.html" id="a"> COMPANY</a></h3>
+            <ul>
+            <li class="text" type="none"><a href="form.html" id="a"> About Us</a></button></li>
+            <li class="text" type="none"><a href="form.html" id="a"> Carriers</a></button></li>
+            <li class="text" type="none"><a href="form.html" id="a"> Terms of Use</a></button></li>
+            <li class="text" type="none"><a href="form.html" id="a"> Privacy Policy</a></button></li>
+            <li class="text" type="none"><a href="form.html" id="a"> Partners</a></button></li>
+        </ul>
+
+        </div>
+        <div class="feature51">
+            <h3 class="text"><a href="form.html" id="a"> HELP & SUPPORT</a></h3>
+            <ul>
+            <li class="text" type="none"><a href="form.html" id="a"> Support</a></button></li>
+            <li class="text" type="none"><a href="form.html" id="a"> Knowlwdge base</a></button></li>
+            <li class="text" type="none"><a href="form.html" id="a"> How to pay</a></button></li>
+        </ul>
+
+        </div>
+
+    </section>
+    
+    
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 ChunksPay. All rights reserved. <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+    </footer>
+</body>
+</html>
